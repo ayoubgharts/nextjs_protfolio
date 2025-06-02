@@ -105,7 +105,7 @@ export default function Tutorials() {
               <tr>
                 <td>Enclosure & Assembly</td>
                 <td>Breadboard/PCB, wires, wrist strap, cuff</td>
-                <td>Custom 3Dprinted or offtheshelf wristcuff.</td>
+                <td>Custom 3Dprinted or offtheshelf wrist‑cuff.</td>
               </tr>
             </tbody>
           </table>

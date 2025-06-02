@@ -29,7 +29,7 @@ export default function Footer() {
               <div className={styles.footerTopLeft}>
                 <LogoFooter />
                 <p className={styles.p}>
-                  We craft beautiful, modern, and easy-to-use Websites & WebApps
+                  We craft beautiful, modern, and easy-to-use Wesites & WebApps
                   & UI Kits to improve the designers & developers workflow.
                 </p>
                 <div className={styles.footerSocialMedia}>

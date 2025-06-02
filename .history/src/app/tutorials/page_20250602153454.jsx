@@ -100,12 +100,12 @@ export default function Tutorials() {
               <tr>
                 <td>Power</td>
                 <td>3.7V LiPo + TP4056 charger/regulator</td>
-                <td>Provide 5V for pump/GPS, 3.3V for MCU.</td>
+                <td>Provide 5 V for pump/GPS, 3.3V for MCU.</td>
               </tr>
               <tr>
                 <td>Enclosure & Assembly</td>
                 <td>Breadboard/PCB, wires, wrist strap, cuff</td>
-                <td>Custom 3Dprinted or offtheshelf wristcuff.</td>
+                <td>Custom 3D‑printed or off‑the‑shelf wrist‑cuff.</td>
               </tr>
             </tbody>
           </table>

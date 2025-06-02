@@ -29,8 +29,8 @@ export default function Footer() {
               <div className={styles.footerTopLeft}>
                 <LogoFooter />
                 <p className={styles.p}>
-                  We craft beautiful, modern, and easy-to-use Websites & WebApps
-                  & UI Kits to improve the designers & developers workflow.
+                  We craft beautiful, modern, and easy-to-use Wesites & WebApps
+                  & UI Kits to improve the designer's & developers workflow.
                 </p>
                 <div className={styles.footerSocialMedia}>
                   <a href="#" className={styles.socialIconsContainer}>

@@ -78,11 +78,13 @@ export default function Tutorials() {
               </tr>
               <tr>
                 <td>Blood Pressure</td>
-                <td> Small air pump (e.g. 5V mini pump)
-                  <br /> Solenoid valve
+                <td>
+                  – Small air pump (e.g. 5 V mini pump)
+                  <br />– Solenoid valve
                 </td>
-                <td> Differential pressure sensor AMS5915, Range ≈0350mbar
-                  for 0262mmHg. (
+                <td>
+                  – Differential pressure sensor AMS 5915, Range ≈ 0–350 mbar
+                  for 0–262 mmHg. (
                   <a
                     href="https://www.analog-micro.com/products/pressure-sensors/board-mount-pressure-sensors/ams5915/ams5915-an03.pdf?utm_source=chatgpt.com"
                     target="_blank"
@@ -99,13 +101,13 @@ export default function Tutorials() {
               </tr>
               <tr>
                 <td>Power</td>
-                <td>3.7V LiPo + TP4056 charger/regulator</td>
-                <td>Provide 5V for pump/GPS, 3.3V for MCU.</td>
+                <td>3.7 V Li‑Po + TP4056 charger/regulator</td>
+                <td>Provide 5 V for pump/GPS, 3.3 V for MCU.</td>
               </tr>
               <tr>
                 <td>Enclosure & Assembly</td>
                 <td>Breadboard/PCB, wires, wrist strap, cuff</td>
-                <td>Custom 3Dprinted or offtheshelf wristcuff.</td>
+                <td>Custom 3D‑printed or off‑the‑shelf wrist‑cuff.</td>
               </tr>
             </tbody>
           </table>

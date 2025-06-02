@@ -30,7 +30,7 @@ export default function Footer() {
                 <LogoFooter />
                 <p className={styles.p}>
                   We craft beautiful, modern, and easy-to-use Websites & WebApps
-                  & UI Kits to improve the designers & developers workflow.
+                  & UI Kits to improve the designer's & developer's workflow.
                 </p>
                 <div className={styles.footerSocialMedia}>
                   <a href="#" className={styles.socialIconsContainer}>
