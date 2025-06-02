@@ -149,7 +149,7 @@ export default function Footer() {
           </Row>
         </div>
         <div className={styles.footerBottom}>
-            <p>Copyright © 2024 <b>ayoubgharts</b> | All Rights Reserved</p>
+            <p>Copyright &copy; 2024 <b>ayoubgharts</b> | All Rights Reserved</p>
         </div>
       </Container>
     </footer>
