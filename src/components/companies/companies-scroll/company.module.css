@@ -1,0 +1,43 @@
+.companiesSection {
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.companiesSlider {
+    display: flex;
+    gap: 40px; /* Adjust the gap between logos */
+    animation: scroll 20s linear infinite;
+}
+
+.companyCard {
+    position: relative;
+    width: 120px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+/* Scrolling Animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+/** Under 576px **/
+@media (max-width: 576px) {
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-400%);
+        }
+    }
+}

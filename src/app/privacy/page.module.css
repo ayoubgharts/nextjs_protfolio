@@ -1,0 +1,25 @@
+.privacy{
+    background: var(--dark);
+    margin-top: 80px;
+    padding: 50px 0;
+}
+.privacyContainer{
+    color: var(--light);
+    background: var(--dark-300);
+    padding: 40px;
+    border-radius: 20px;
+}
+.privacyContainer p{
+    color: var(--dark-800);
+    margin-bottom: 20px;
+}
+.privacyContainer ul li{
+    color: var(--dark-800);
+    margin-bottom: 20px;
+}
+.privacyContainer h2{
+    color: var(--light);
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}

@@ -1,0 +1,50 @@
+.rightContact{
+    padding: 15px;
+    background: var(--dark-400);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: var(--trans-03);
+}
+
+.h3{
+    margin: 10px 0;
+    text-transform: capitalize;
+    transition: var(--trans-03);
+}
+.p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--dark-800);
+    transition: var(--trans-03);
+}
+.button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    background: var(--purple);
+    color: var(--light-fixed);
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 500;
+    transition: var(--trans-03);
+}
+.button .envolop{
+    margin-left: 8px;
+    transition: var(--trans-03);
+}
+
+.button:hover{
+    background: var(--violet);
+}
+.button:hover .envolop{
+    margin-left: 15px;
+}

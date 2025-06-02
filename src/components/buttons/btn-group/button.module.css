@@ -1,0 +1,119 @@
+.btnGroup {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.icon {
+    font-size: 20px;
+    margin-left: 5px;
+    color: var(--light);
+}
+.iconPHP{
+    font-size: 24px;
+    margin-right: 5px;
+    color: var(--light);
+}
+
+.button {
+    width: 130px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--light);
+    background: var(--dark);
+}
+
+.button:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+}
+
+.button:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+}
+
+/* .button:hover {
+    box-shadow: 0 5px 15px var(--purple);
+} */
+
+.button:hover:before {
+    border-color: var(--purple);
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+}
+
+.button:hover:after {
+    border-color: var(--purple);
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+}
+
+.button.active {
+    color: var(--light-fixed);
+    background: var(--purple);
+}
+
+.button.active .iconPHP,
+.button.active .icon {
+    color: var(--light-fixed);
+}
+
+
+@media (max-width: 580px) {
+    .button {
+        font-size: 12px;
+        width: 100px;
+        height: 30px;
+    }
+
+    .btnGroup {
+        display: grid;
+        grid-template-columns: repeat(4, auto); /* Change 1fr to auto for buttons */
+        justify-content: center; /* Centers the buttons horizontally */
+        align-items: center; /* Centers the buttons vertically */
+        grid-gap: 10px; /* Adds some space between buttons */
+    }
+    
+}
+
+@media (max-width: 455px) {
+    .btnGroup {
+        display: grid;
+        grid-template-columns: repeat(3, auto); /* Change 1fr to auto for buttons */
+        justify-content: center; /* Centers the buttons horizontally */
+        align-items: center; /* Centers the buttons vertically */
+        grid-gap: 10px; /* Adds some space between buttons */
+    }
+}

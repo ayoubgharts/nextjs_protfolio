@@ -1,0 +1,65 @@
+/* Accordion section container */
+.accordionSection {
+    border-radius: 10px 10px 0 0;
+    border: none;
+}
+
+/* Accordion header styling */
+.accordion {
+    background-color: var(--primary);
+    color: var(--light-fixed);
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Change background on hover */
+.accordion:hover {
+    background-color: var(--purple);
+}
+
+/* Title styling */
+.accordionTitle {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* Icon for expanding and collapsing */
+.icon {
+    font-size: 24px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+/* Accordion content wrapper */
+.accordionContent {
+    max-height: 0;
+    overflow-y: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    background-color: var(--dark-400);
+    color: var(--light);
+    padding: 0 15px;
+    border-radius: 10px;
+}
+
+/* Active class when accordion is opened */
+.accordionContent.active {
+    max-height: 100%;
+    color: var(--light);
+    /* Set a height that fits the content */
+    padding: 25px;
+}
+
+/* Content text styling */
+.accordionText {
+    font-size: 16px;
+    color: var(--light);
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+

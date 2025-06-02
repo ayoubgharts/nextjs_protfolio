@@ -1,0 +1,25 @@
+.skilltitle {
+    color: var(--light);
+    text-transform: capitalize;
+    position: relative;
+    padding-left: 50px;
+    height: 40px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Center the ::before pseudo-element */
+  .skilltitle::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: var(--primary);
+    position: absolute;
+    left: 15px; /* Adjust as necessary to position horizontally */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    border-radius: 50%;
+  }
+  

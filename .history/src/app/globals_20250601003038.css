@@ -1,0 +1,145 @@
+
+/*? import google font 'Poppins' */
+/*? import google font 'Poppins' */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+/*? all variables */
+:root {
+  /*. Web colors vars */
+  --dark:      #1b1f24;
+  --dark-fixed:      #1b1f24;
+  --dark-300:  #23282f;
+  --dark-400:  #2b323b;
+  --dark-300-opacity:  #23282fab;
+  --dark-400-opacity:  #2b323bb0;
+  --dark-300-fixed:#282c31;
+  --dark-500:  #333c47;
+  --dark-600:  #4d5a6a;
+  --dark-700:  #778392;
+  --dark-800:  #9da6b3;
+
+  --light:     #f0f2f4;
+  --light-fixed:     #f0f2f4;
+  --light-300: #454649;
+  --light-400: #c3cad5;
+  --light-500: #8895aa;
+  
+  --primary:   #075fe4;
+  --primary-dark:   #12499c;
+  --primary-light:   #6b93cf;
+  --success:   #11845b;
+  --danger:    #c6303e;
+  --danger-dark:    #992934;
+  --warning:   #fd7e14;
+
+  --purple:    #4c0bce;
+  --purple-dark:    #330f7c;
+  --violet:    #712cf9;
+  --pink:    #f92c8c;
+  --yellow:    #ffc107;
+  --green:     #198754;
+  --teal:      #20c997;
+  --cyan:      #0dcaf0;
+
+  /*. Mobile Var Colors */
+  --mobile-dark:      #1b1f24;
+  --mobile-light:     #f0f2f4;
+  --mobile-dark-300:  #23282f;
+  --mobile-dark-500:  #333c47;
+  --mobile-dark-700:  #778392;
+
+
+
+  /*. transitions vars */
+  --trans-03: all ease .3s;
+  --trans-05: all ease .5s;
+
+  /*. border radius vars */
+  --br-8: 8px;
+  --br-50: 50px;
+
+  /*. padding global default */
+  --container-120: 0 120px;
+  --container-60: 0 60px;
+  --container-20: 0 20px;
+
+  /*. buttons vars */
+  --btn-padding: 10px 25px;
+  --btn-font-size: 1.2rem;
+  --btn-font-media: 0.9rem;
+  --light-btn:#f0f2f4;
+
+}
+
+
+/* Light mode overrides */
+.light-mode {
+  
+  /*. web switch colors */
+  --dark:       #e0e3e6;
+  --dark-300:  #cdd6e2;
+  --dark-400:  #c7cfd8;
+  --dark-300-opacity:  #b6bfccab;
+  --dark-400-opacity:  #b5bfccb0;
+  --dark-500:   #c2c8d3;
+  --dark-600:  #4d5a6a;
+  --dark-700:  #eff3f7;
+  --dark-800:  #757c85;
+
+  --light:     #1b1f24;
+  --light-300: #dde1e9;
+  --light-400: #c3cad5;
+  --light-500: #8895aa;
+
+  /*. mobile switch colors */
+  --mobile-dark:      #f0f2f4;
+  --mobile-light:     #1b1f24;
+  --mobile-dark-500:  #b5bcc4;
+  --mobile-dark-700:  #778392;
+  --mobile-dark-300:  #e4e7ec;
+}
+
+
+/*? Global Styles */
+*{
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*? Normalise */
+a, Link{
+  color: var(--cyan);
+  text-decoration: none !important;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5{
+  margin: 0;
+  padding: 0;
+}
+
+i{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  transition: var(--trans-03);
+}

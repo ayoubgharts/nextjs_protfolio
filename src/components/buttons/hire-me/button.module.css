@@ -1,0 +1,39 @@
+.BtnHireMe {
+    outline: none;
+    border: none;
+    color: var(--light-btn);
+    background: var(--primary);
+    padding: var(--btn-padding);
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: var(--btn-font-size);
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-right: 20px;
+    transition: var(--trans-03);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.arrowUpRight {
+    margin-right: 6px;
+    font-size: 1rem;
+}
+
+.BtnHireMe:hover {
+    background: var(--primary-dark);
+    font-size: 1.1rem;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 397px) {
+    .BtnHireMe {
+        font-size: 14px;
+        margin-right: 0;
+    }
+
+    .arrowUpRight {
+        font-size: 12px;
+    }
+}

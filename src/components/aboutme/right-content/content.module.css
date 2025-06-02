@@ -1,0 +1,56 @@
+.RightContent {
+    height: 100%;
+    transition: var(--trans-03);
+}
+
+.exp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    margin-bottom: 30px;
+    transition: var(--trans-03);
+}
+.expOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    transition: var(--trans-03);
+}
+
+.expOne p {
+    width: 120px;
+    height: 80px;
+    margin: 0;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: var(--dark-500);
+    transition: var(--trans-03);
+}
+
+.expParagraph {
+    color: var(--dark-800);
+    line-height: 30px;
+    font-weight: 300;
+    transition: var(--trans-03);
+}
+
+/** Under 497px **/
+@media (max-width: 497px) {
+    .exp {
+        display: inline;
+    }
+    .expOne {
+        margin-bottom: 20px;
+    }
+    .expParagraph {
+        display: block;
+        margin-top: 30px;
+    }
+}

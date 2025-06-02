@@ -1,0 +1,65 @@
+.TestCard{
+    max-width: 296px;
+    min-width: 296px;
+    height: auto;
+    padding: 15px;
+    color: var(--light);
+    margin: 0 10px;
+    border-radius: 5px;
+    background: var(--dark-300);
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+.avatar{
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.profileDetails{
+    height: 100%;
+}
+
+.profileDetails p{
+    font-weight: 300;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.price{
+    font-size: 16px;
+}
+
+.price span{
+    color: var(--dark-800);
+}
+
+.cardContent p{
+    font-size: 14px;
+}
+
+.cardFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.rating ul{
+    display: flex;
+    align-items: center;
+}
+.rating ul li{
+    font-size: 14px;
+    margin-left: 5px;
+    color: var(--yellow);
+}
+
+.rating ul li .rateGray{
+    color: rgb(177, 177, 177);
+}

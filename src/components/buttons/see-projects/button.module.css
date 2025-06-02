@@ -1,0 +1,33 @@
+.btn{
+    outline: none;
+    border: none;
+    padding: var(--btn-padding);
+    font-size: var(--btn-font-size);
+    color: var(--light-btn);
+    background: var(--purple);
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: var(--trans-03);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+.btn:hover{
+    background: var(--purple-dark);
+    font-size: 1.1rem;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.arrowicon{
+    font-size: 1rem;
+    margin-right: 6px;
+}
+
+
+@media (max-width: 397px) {
+    .btn {
+        font-size: 14px;
+    }
+
+    .arrowicon {
+        font-size: 12px;
+    }
+}

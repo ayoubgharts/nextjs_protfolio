@@ -1,0 +1,63 @@
+.Testimonials{
+    background: var(--dark);
+    padding: 50px 0;
+    color: var(--light);
+    overflow: hidden;
+    z-index: 99;
+    transition: var(--trans-03);
+}
+
+.underTop{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.h2{
+    width: 50%;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.sectionContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cardContainer {
+    width: 85%;
+    margin: 0 10px;
+    padding-bottom: 10px;
+    display: flex;
+    overflow-x: auto;
+}
+
+/* Custom Scrollbar for WebKit-based browsers */
+.cardContainer::-webkit-scrollbar {
+    height: 8px; /* Height of the scrollbar */
+    background-color: var(--dark); /* Background of the scrollbar track */
+}
+
+.cardContainer::-webkit-scrollbar-track {
+    background: var(--dark); /* Track background color */
+}
+
+.cardContainer::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background-color: var(--light); /* Scrollbar thumb color */
+    border-radius: 20px; /* Roundness of the scrollbar thumb */
+    border: 5px solid var(--light); /* Padding around the thumb */
+}
+
+.cardContainer::-webkit-scrollbar-thumb:hover {
+    background-color: #b3b3b3; /* Lighter color when hovered */
+}
+
+.cardContainer::-webkit-scrollbar-thumb:active {
+    background-color: #999999; /* Even lighter color when active */
+}

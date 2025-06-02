@@ -1,0 +1,60 @@
+/* Style for the Link (h3) */
+.h3 {
+    color: var(--light);
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: solid 1px var(--dark-800);
+    margin-bottom: 30px;
+    transition: color 0.3s ease; /* Smooth transition for text color */
+    display: inline-block; /* Ensures the underline and icon align properly */
+}
+
+.h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1.5px;
+    width: 0;
+    height: 2px;
+    background: var(--light);
+    transition: width 0.3s ease, background-color 0.3s ease; /* Smooth transition for underline */
+}
+
+.h3:hover::after {
+    width: 100%; /* Full width of the text */
+    background-color: var(--primary); /* Change color on hover */
+}
+
+/* Hover effect on the text color */
+.h3:hover {
+    color: var(--primary); /* Change text color on hover */
+}
+
+/* Style for the arrow icon */
+.arrowicon {
+    font-size: 1.75rem;
+    font-weight: normal;
+    margin-left: 10px;
+    transition: margin-left 0.3s ease; /* Smooth transition for icon margin */
+}
+
+/* Move the icon to the right on hover */
+.h3:hover .arrowicon {
+    margin-left: 20px; /* Adjust as needed */
+}
+
+.p {
+    font-weight: 300;
+    color: var(--dark-800);
+}
+
+
+
+.p{
+    font-weight: 300;
+    color: var(--dark-800);
+}

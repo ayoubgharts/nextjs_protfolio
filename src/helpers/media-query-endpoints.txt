@@ -1,0 +1,23 @@
+/*? ***********************/
+/*? Hero Section Media Query
+/*? ***********************/
+
+
+/** Higher than 1024px **/
+@media (min-width: 1024px) {
+}
+/** Under 992px **/
+@media (max-width: 992px) {
+}
+/** Under 768px **/
+@media (max-width: 768px) {
+}
+/** Under 576px **/
+@media (max-width: 576px) {
+}
+/** Under 437px **/
+@media (max-width: 437px) {
+}
+/** Under 397px **/
+@media (max-width: 397px) {
+}

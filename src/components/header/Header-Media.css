@@ -1,0 +1,30 @@
+
+/*? Mobile Menu default none display */
+header .mobileMenu{
+    display: none;
+}
+
+/*? Large Size 960px */
+@media (max-width: 960px) {
+    header .webMenu{
+        display: none;
+    }
+    /*. Mobile Menu display */
+    header .mobileMenu{
+        display: block;
+    }
+}
+
+/*? Small Size 576px */
+@media (max-width: 576px) {
+    header .header-container {
+        padding: var(--container-60);
+    }
+}
+
+/*? Extra Small Size 476px */
+@media (max-width: 476px) {
+    header .header-container {
+        padding: var(--container-20);
+    }
+}

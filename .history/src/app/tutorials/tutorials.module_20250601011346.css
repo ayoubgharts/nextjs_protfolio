@@ -1,0 +1,127 @@
+
+/*? import google font 'Cairo' */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+
+.tutorials{
+    margin-top: 80px;
+    background: var(--dark);
+    padding: 50px 0;
+    transition: var(--trans-03);
+    text-align: start;
+    color: var(--light);
+}
+
+.button{
+    outline: none;
+    border: none;
+    background: var(--primary);
+    color: var(--light-fixed);
+    width: 100%;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: var(--trans-03);
+}
+
+.button:hover{
+    background: var(--primary-dark);
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    direction: rtl;
+}
+.project h3{
+    margin: 20px 0;
+    font-family: "Cairo";
+}
+
+.project ul li{
+    font-family: "Cairo";
+    list-style-type: disc;
+    margin-right: 30px;
+}
+
+
+
+.tableWrapper {
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  max-width: 1000px;
+  color: #f0f0f0;
+}
+
+.partsTable {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: start;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.partsTable th,
+.partsTable td {
+  border: 1px solid #555;
+  padding: 12px 15px;
+  vertical-align: top;
+}
+
+.partsTable thead th {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.partsTable tbody tr:nth-child(even) {
+  background-color: #2c2c2c;
+}
+
+.partsTable a {
+  color: #4fc3f7;
+  text-decoration: none;
+}
+
+.partsTable a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/* ImageSection.module.css */
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.image {
+  max-width: 60%;
+  height: 40%;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+  .imageWrapper {
+    padding: 10px;
+  }
+
+  .image {
+    border-radius: 12px;
+  }
+}

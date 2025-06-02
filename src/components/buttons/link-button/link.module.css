@@ -1,0 +1,35 @@
+
+.linkbutton {
+    position: relative;
+    text-transform: capitalize;
+    transition: var(--trans-03);
+}
+
+.linkbutton .iconArrow {
+    transform: rotate(45deg);
+    margin-left: 5px;
+    transition: var(--trans-03);
+}
+
+.linkbutton::after{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--cyan);
+    transition: var(--trans-03);
+}
+
+.linkbutton:hover {
+    font-size: 15.5px;
+}
+.linkbutton:hover::after {
+    width: 100%;
+}
+.linkbutton:hover .iconArrow {
+    transform: rotate(0);
+    margin-left: 15px;
+    transition: var(--trans-03);
+}

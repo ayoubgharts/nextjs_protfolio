@@ -1,0 +1,30 @@
+.whyCrad{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+.h4{
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: var(--light);
+}
+.p{
+    max-width: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark-800);
+}
+
+.whyimage{
+    width: 180px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}

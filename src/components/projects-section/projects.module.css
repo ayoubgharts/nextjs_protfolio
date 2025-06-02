@@ -1,0 +1,61 @@
+.projectSection {
+    color: var(--light);
+    background: var(--dark-300);
+    padding: 50px 0;
+    overflow: hidden;
+    z-index: 99;
+    transition: var(--trans-03);
+}
+
+.projectRightContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    transition: var(--trans-03);
+}
+
+.projectRightContent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Creates 3 equal-width columns */
+    grid-gap: 20px;
+    /* Adds space between the grid items */
+    width: auto;
+    height: auto;
+    transition: var(--trans-03);
+}
+
+.projectFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Media query for smaller screens */
+/** Under 992px **/
+@media (max-width: 1200px) {
+    .projectRightContent {
+        grid-template-columns: repeat(2, 1fr);
+        /* Changes to 2 columns on medium screens */
+    }
+}
+
+@media (max-width: 967px) {
+    .projectRightContent {
+        grid-template-columns: repeat(1, 1fr);
+        /* Changes to 2 columns on medium screens */
+    }
+}
+
+@media (max-width: 580px) {
+    .projectRightContainer {
+        margin-top: 20px;
+    }
+
+    .projectRightContent {
+        grid-template-columns: repeat(2, 1fr);
+        /* Changes to 1 column on small screens */
+    }
+}

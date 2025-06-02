@@ -1,0 +1,66 @@
+/*** Menu mobile container nav ***/
+.mobileMenu {
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    width: 75%;
+    height: 100vh;
+    background: var(--mobile-dark-300);
+    transition: right 0.3s ease;
+    z-index: 9999;
+}
+
+.mobileMenu.open {
+    right: 0;
+}
+
+/** Under 576px **/
+@media (max-width: 576px) {
+    .mobileMenu {
+        width: 100%;
+    }
+}
+
+
+
+.menu-toggle-btn {
+    /* Common styles for both states */
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: var(--light);
+    transition: var(--trans-03);
+}
+
+/*! ---- Media Query ---- */
+/*? Large Size 960px */
+@media (max-width: 960px) {
+    .menu-toggle-btn {
+        display: block;
+    }
+}
+
+/* When the menu is open and displaying the faXmark icon */
+.menu-toggle-btn .fa-bars {
+    color: var(--light);
+    transition: var(--trans-03);
+}
+
+/* When the menu is open and displaying the faXmark icon */
+.menu-toggle-btn .fa-xmark {
+    color: var(--danger);
+    transition: var(--trans-03);
+}
+
+/* Hover state when the menu is open (faBars icon) */
+.menu-toggle-btn:hover .fa-bars {
+    color: var(--primary);
+}
+
+/* Hover state when the menu is open (faXmark icon) */
+.menu-toggle-btn:hover .fa-xmark {
+    color: var(--danger-dark);
+    /* or another color for hover if needed */
+}

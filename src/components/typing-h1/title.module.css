@@ -1,0 +1,28 @@
+.herotitle::before {
+    content: '';
+    width: 20%;
+    height: 7px;
+    background: var(--primary);
+    display: block;
+    margin: 35px 0;
+    transition: var(--trans-03);
+}
+
+.herotitle {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    transition: var(--trans-03);
+}
+
+@media (min-width: 1024) {
+    .herotitle {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 437px) {
+    .herotitle {
+        font-size: 3rem;
+    }
+}

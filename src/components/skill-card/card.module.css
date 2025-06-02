@@ -1,0 +1,27 @@
+
+.skillsCard{
+    background: var(--light-300);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: var(--trans-03);
+}
+.skillsCard:hover{
+    border: solid 1px var(--primary);
+    transform: rotate(2deg);
+}
+
+.imageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.h5{
+    color: var(--light);
+}

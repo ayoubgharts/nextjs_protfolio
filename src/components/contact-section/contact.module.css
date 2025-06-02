@@ -1,0 +1,9 @@
+
+.contact{
+    background: var(--dark);
+    padding: 50px 0;
+    color: var(--light);
+    overflow: hidden;
+    z-index: 99;
+    transition: var(--trans-03);
+}

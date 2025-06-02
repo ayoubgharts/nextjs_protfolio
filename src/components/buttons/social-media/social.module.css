@@ -1,0 +1,124 @@
+.card{
+    width: 260px;
+    height: 65px;
+    color: var(--light);
+    background: var(--dark-400-opacity);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2.5rem;
+    transition: var(--trans-03);
+}
+.githubIcons, .instaIcons, .behanceIcons, .linkdIcons{
+    color: var(--light);
+    outline: none;
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    transition: var(--trans-03);
+}
+
+
+
+
+/* Before pseudo-element for Github text */
+.githubIcons::before {
+    content: '@Github';
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: -26px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: var(--light-fixed);
+    background: #000;
+}
+/* On hover - Show the pseudo-elements */
+.githubIcons:hover::before{
+    display: block;
+    top: -35px;
+}
+.githubIcons:hover{
+    color: black;
+    font-size: 2.3rem;
+}
+
+
+
+/* Before pseudo-element for Github text */
+.instaIcons::before {
+    content: '@Instagram';
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: -42px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: var(--light-fixed);
+    font-weight: 400;
+    background: var(--pink);
+}
+/* On hover - Show the pseudo-elements */
+.instaIcons:hover::before{
+    display: block;
+    top: -35px;
+}
+.instaIcons:hover{
+    color: var(--pink);
+    font-size: 2.3rem;
+}
+
+
+
+/* Before pseudo-element for Github text */
+.behanceIcons::before {
+    content: '@Behance';
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: -37px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: var(--light-fixed);
+    font-weight: 400;
+    background: var(--primary);
+}
+/* On hover - Show the pseudo-elements */
+.behanceIcons:hover::before{
+    display: block;
+    top: -35px;
+}
+.behanceIcons:hover{
+    color: var(--primary);
+    font-size: 2.3rem;
+}
+
+
+
+.linkdIcons::before {
+    content: '@Linkedin';
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: -34px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: var(--light-fixed);
+    font-weight: 400;
+    background: var(--primary-light);
+}
+.linkdIcons:hover::before{
+    display: block;
+    top: -35px;
+}
+.linkdIcons:hover{
+    color: var(--primary-light);
+    font-size: 2.3rem;
+}

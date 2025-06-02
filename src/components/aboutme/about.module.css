@@ -1,0 +1,11 @@
+.AboutMe{
+    width: 100%;
+    height: auto;
+    background: var(--dark-300);
+    color: var(--light);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    z-index: 99;
+    transition: var(--trans-05);
+}

@@ -1,0 +1,23 @@
+    --dark:      #1b1f24;
+    --dark-300:  #23282f;
+    --dark-400:  #2b323b;
+    --dark-500:  #333c47;
+    --dark-600:  #4d5a6a;
+    --dark-700:  #67788e;
+
+    --light:     #f0f2f4;
+    --light-300: #e4e7ec;
+    --light-400: #c3cad5;
+    --light-500: #8895aa;
+    
+    --primary:   #075fe4;
+    --success:   #11845b;
+    --danger:    #c6303e;
+    --warning:   #fd7e14;
+
+    --purple:    #4c0bce;
+    --violet:    #712cf9;
+    --yellow:    #ffc107;
+    --green:     #198754;
+    --teal:      #20c997;
+    --cyan:      #0dcaf0;

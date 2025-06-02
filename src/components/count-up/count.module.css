@@ -1,0 +1,12 @@
+.CountUp{
+    font-size: 4rem;
+    font-weight: 700;
+    height: 80px;
+    color: var(--light-fixed);
+    background: var(--purple);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+    margin: 0;
+    transition: var(--trans-03);
+}

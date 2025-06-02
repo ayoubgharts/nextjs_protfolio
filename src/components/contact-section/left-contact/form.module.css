@@ -1,0 +1,53 @@
+.form{
+    width: 100%;
+    transition: var(--trans-03);
+}
+
+.inputs{
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    border: none;
+    outline: none;
+    padding: 15px 25px;
+    background: var(--dark-400);
+    color: var(--light);
+    border-radius: 10px;
+    transition: var(--trans-03);
+}
+.inputs:focus{
+    border: solid 2px var(--primary);
+}
+
+.sendButton{
+    margin: 10px 0;
+    transition: var(--trans-03);
+}
+
+.sendButton button{
+    outline: none;
+    border: none;
+    color: var(--light-fixed);
+    background: var(--primary);
+    padding: 10px 25px;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: var(--trans-03);
+}
+
+.sendIcon{
+    font-size: 14px;
+    margin-left: 8px;
+    transition: var(--trans-03);
+}
+
+.sendButton button:hover{
+    background: var(--primary-dark);
+}
+
+.sendButton button:hover .sendIcon{
+    margin-left: 20px;
+    transform: rotate(20deg);
+}

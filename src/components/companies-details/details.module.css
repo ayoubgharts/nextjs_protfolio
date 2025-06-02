@@ -1,0 +1,130 @@
+
+.h3{
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.projectWithCompanyContent h4{
+    margin-bottom: 25px;
+    font-size: 2rem;
+    color: var(--light);
+}
+.projectWithCompanyContent p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--dark-800);
+}
+
+
+.projectWithCompany{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    transition: var(--trans-03);
+}
+.image{
+    transition: var(--trans-03);
+}
+.image:hover{
+    border: solid 1px var(--primary);
+    transform: rotate(2deg);
+}
+.image{
+    border-radius: 10px;
+}
+
+.Brand1{
+    padding: 25px;
+    width: 180px;
+    height: 90px;
+    border-radius: 10px;
+    background: var(--dark-500);
+}
+.Brand2{
+    padding: 25px;
+    width: 180px;
+    height: 80px;
+    border-radius: 10px;
+    background: var(--dark-500);
+}
+.Brand{
+    padding: 25px;
+    width: 180px;
+    height: 100px;
+    border-radius: 10px;
+    background: var(--dark-500);
+}
+
+
+
+.linktoproject{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    border-bottom: solid 1px var(--dark-800);
+    margin-bottom: 30px;
+}
+
+.linktoproject .Link{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--light-fixed);
+    background: var(--purple);
+    text-transform: capitalize;
+    letter-spacing: -0.5px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: var(--trans-03);
+}
+.linkIcon{
+    margin-left: 10px;
+    transition: var(--trans-03);
+}
+.linktoproject .Link:hover{
+    background: var(--purple-dark);
+    transition: var(--trans-03);
+}
+.linktoproject .Link:hover .linkIcon{
+    margin-left: 15px;
+    transition: var(--trans-03);
+}
+
+
+
+
+.projectWithCompanyLogo {
+    position: relative;
+    width: 190px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+
+
+@media (max-width: 897px) {
+    .projectWithCompany{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .projectWithCompanyLogo{
+        margin-bottom: 15px;
+    }
+    .projectWithCompanyContent{
+        text-align: center;
+    }
+}

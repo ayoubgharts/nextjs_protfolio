@@ -1,0 +1,27 @@
+.tableWrapper {
+  margin: 2rem 0;
+}
+
+.partsTable {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.partsTable th,
+.partsTable td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+
+.partsTable a {
+  color: #0070f3;
+  text-decoration: underline;
+}
+
+.partsTable a:hover {
+  text-decoration: none;
+}
